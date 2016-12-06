@@ -17,6 +17,7 @@ public class NewTest {
 		@BeforeTest
 		public void beforeTest() {	
 		    driver = new FirefoxDriver(); 
+		    System.out.println("urg");
 
 		}		
 		@AfterTest
