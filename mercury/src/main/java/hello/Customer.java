@@ -46,7 +46,7 @@ public class Customer {
 	}
 	
     public String getTitle() {
-		return title.toUpperCase();
+		return title.toLowerCase();
 	}
 
 }
