@@ -20,10 +20,10 @@ public class Application {
 	@Bean
 	public CommandLineRunner demo(CustomerRepository repository){
 		return (args) -> {
-			repository.save(new Customer("Paul", "Romanus"));
-			repository.save(new Customer("Evelyn", "Romanus"));
-			repository.save(new Customer("Thomas", "Romanus"));
-			repository.save(new Customer("Rose", "Romanus"));
+			repository.save(new Customer("Mr", "Paul", "Romanus"));
+			repository.save(new Customer("Mrs", "Evelyn", "Romanus"));
+			repository.save(new Customer("Master", "Thomas", "Romanus"));
+			repository.save(new Customer("Miss", "Rose", "Romanus"));
 			
 
 			// fetch all customers
